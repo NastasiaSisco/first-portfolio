@@ -1,0 +1,77 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    height: 100px;
+    align-items: center;
+    background-color: yellow;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    background-color: rgb(40, 115, 228);
+    border-color: rgb(246, 246, 33);
+    border-width: 2px;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.section-titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-titles h1 {
+    color: green;
+    display: flex;
+}
+
+
+.bio h2 {
+    background-color:yellow;
+    color: gray;
+}
+
+.bio img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.bio p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    border-radius: 10px;
+    width: 200px;
+}
+
+
+.card a {
+    color: yellow;
+}
+
+.card-1 img {
+    width: 300px;
+}
+
+
+.contact-me {
+    background-color: yellow;
+    color: gray;
+}
